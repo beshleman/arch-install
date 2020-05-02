@@ -42,32 +42,31 @@
 DRIVE='/dev/sda'
 
 # Hostname of the installed machine.
-HOSTNAME='host100'
+HOSTNAME='piano'
 
 # Encrypt everything (except /boot).  Leave blank to disable.
-ENCRYPT_DRIVE='TRUE'
+ENCRYPT_DRIVE=''
 
 # Passphrase used to encrypt the drive (leave blank to be prompted).
-DRIVE_PASSPHRASE='a'
+DRIVE_PASSPHRASE=''
 
 # Root password (leave blank to be prompted).
-ROOT_PASSWORD='a'
+ROOT_PASSWORD=''
 
 # Main user to create (by default, added to wheel group, and others).
-USER_NAME='user'
+USER_NAME='bobby'
 
 # The main user's password (leave blank to be prompted).
-USER_PASSWORD='a'
+USER_PASSWORD=''
 
 # System timezone.
-TIMEZONE='America/New_York'
+TIMEZONE='America/Chicago'
 
 # Have /tmp on a tmpfs or not.  Leave blank to disable.
 # Only leave this blank on systems with very little RAM.
 TMP_ON_TMPFS='TRUE'
 
 KEYMAP='us'
-# KEYMAP='dvorak'
 
 # Choose your video driver
 # For Intel
@@ -80,7 +79,7 @@ VIDEO_DRIVER="i915"
 #VIDEO_DRIVER="vesa"
 
 # Wireless device, leave blank to not use wireless and use DHCP instead.
-WIRELESS_DEVICE="wlan0"
+WIRELESS_DEVICE="wlp2s0"
 # For tc4200's
 #WIRELESS_DEVICE="eth1"
 
